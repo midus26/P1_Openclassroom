@@ -1,0 +1,1301 @@
+@font-face 
+{
+	font-family : 'PoliceWebAgency';
+	src :	url('fonts/fontawesome-webfront.eot') format('eot'),
+			url('fonts/fontawesome-webfront.woff') format('woff'),
+			url('fonts/fontawesome-webfront.otf') format('otf'),
+			url('fonts/fontawesome-webfront.svg') format('svg'),
+			url('fonts/fontawesome-webfront.ttf') format('truetype');
+}
+@font-face
+{
+	font-family : 'Roboto';
+	src :	url('fonts/Roboto-Black.ttf')format('truetype'),
+			url('fonts/Roboto-BlackItalic.ttf')format('truetype'),
+			url('fonts/Roboto-Bold.ttf')format('truetype'),
+			url('fonts/Roboto-BoldItalic.ttf')format('truetype'),
+			url('fonts/Roboto-Italic.ttf')format('truetype'),
+			url('fonts/Roboto-Light.ttf')format('truetype'),
+			url('fonts/Roboto-LightItalic.ttf')format('truetype'),
+			url('fonts/Roboto-Medium.ttf')format('truetype'),
+			url('fonts/Roboto-MediumItalic.ttf')format('truetype'),
+			url('fonts/Roboto-Regular.ttf')format('truetype'),
+			url('fonts/Roboto-Thin.ttf')format('truetype'),
+			url('fonts/Roboto-ThinItalic.ttf')format('truetype');
+}
+	
+body
+{
+	margin : 0;
+}
+/*Entete*/
+header
+{
+	width : 100%;
+	display : -webkit-box;
+	display : -ms-flexbox;
+	display : flex;
+	-ms-flex-pack : distribute;
+	    justify-content : space-around;
+	-ms-flex-wrap : wrap;
+	    flex-wrap : wrap;
+}
+.EnteteFix
+{
+	z-index : 999;
+	top : 0 ;
+	position : fixed ;
+	height : 80px ;
+	background : #fff;
+	width : 100%;
+}
+.entetewidth
+{
+	margin : auto;
+	width : 70%;
+	height : 100%;
+	display : -webkit-box;
+	display : -ms-flexbox;
+	display : flex;
+	-webkit-box-pack : justify;
+	    -ms-flex-pack : justify;
+	        justify-content : space-between;
+}
+.LienLogo
+{
+	display :-webkit-box;
+	display :-ms-flexbox;
+	display :flex;
+	-webkit-box-pack : center;
+	    -ms-flex-pack : center;
+	        justify-content : center;
+}
+.logo
+{
+	margin-top : auto;
+	margin-bottom : auto;
+}
+nav
+{
+	min-width : 300px;
+	max-width : 560px;
+}
+nav ul
+{
+	margin : auto;
+	padding : 0;
+	display : -webkit-box;
+	display : -ms-flexbox;
+	display : flex;
+	height : 100%;
+}
+nav li:nth-child(1)
+{
+	border-top :solid 2px #01a9db;
+}
+nav li
+{
+	font-family : PoliceWebAgency, Arial, serif;
+	color : grey;
+	display : -webkit-box;
+	display : -ms-flexbox;
+	display : flex;
+	width : 25%;
+}
+nav li:hover
+{
+	border-top : solid 2px #01a9db;
+	color : black;
+}
+.Element
+{
+	text-decoration : none;
+	margin :auto;
+	color : grey;
+}
+/*Slider*/
+.Presentation
+{
+	margin-top : 80px;
+	position : relative;
+	width : 100%;
+}
+.WebAgency
+{
+	color : #4EB1D5;
+}
+.TextSlider
+{
+	font-family : Roboto, Arial , serif;
+	color : white;
+	display : -webkit-box;
+	display : -ms-flexbox;
+	display : flex;
+	-webkit-box-orient : vertical;
+	-webkit-box-direction : normal;
+	    -ms-flex-direction : column ;
+	        flex-direction : column ;
+	position : absolute ;
+}
+.TextSlider p
+{
+	font-size : 0.8em;
+	font-weight :bold;
+	margin : 2% 0% 2% 0%;
+}
+.SliderGauche
+{
+	position : absolute;
+	color : white;
+	background-color : RGBa(0,0,0,0.25);
+}
+.SliderDroite
+{
+	position : absolute;
+	color : white;
+	background-color : RGBa(0,0,0,0.25);
+}
+button
+{
+	border-radius : 5px;
+	border-bottom : solid 3px #468cad;
+		border-top : 0px;
+		border-right : 0px;
+		border-left : 0px;
+	padding : 2% 0% 2% 0%;
+	background-color : #4EB1D5;
+	color : white ;
+	font-family : Roboto,Arial,serif;
+	font-weight : bold;
+}
+.BarreSlider
+{
+	position : relative;
+	bottom : 9px;
+	height : 5px;
+	background-color : #80808042;
+}
+.BarreBleu
+{
+	width : 15%;
+	background-color : #4EB1D5;
+	height : 100%;
+}
+.ButtonSlider
+{
+	min-width : 100px;
+	max-width : 120px;
+	font-size : 17px;
+}
+/*Titre de rubrique*/
+.Titre
+{
+	font-family : Roboto,arial,serif;
+	display : -webkit-box;
+	display : -ms-flexbox;
+	display : flex;
+	-webkit-box-orient : vertical;
+	-webkit-box-direction : normal;
+	    -ms-flex-direction : column;
+	        flex-direction : column;
+	-webkit-box-align : center;
+	    -ms-flex-align : center;
+	        align-items : center;
+	font-size : 1.2em;
+}
+.Titre p
+{
+	color : #666;
+	font-size : 0.8em;
+}
+hr
+{
+	width : 10%;
+	color : #EBEBEB;
+}
+/*Titre de section*/
+h1
+{
+	font-family : Arial , serif;
+	margin-bottom : 0;
+	font-size : 2.0em;
+}
+h2
+{
+	padding-top : 80px;
+	font-family : Arial , serif;
+	font-weight : bold;
+	font-size : 2.2em;
+}
+h3
+{
+	font-family : Roboto,Arial , serif;
+	margin-bottom : 0;
+	font-size : 1.4em;
+}
+h4
+{
+	color : #666;
+	margin-bottom: 0;
+}
+/*Service*/
+.NosServices
+{
+	width : 80%;
+	margin : auto;
+}
+.Ordinateur
+{
+	margin : auto;
+
+}
+.DetailServices
+{
+	display : -webkit-box;
+	display : -ms-flexbox;
+	display : flex;
+	-webkit-box-pack : center;
+	    -ms-flex-pack : center;
+	        justify-content : center;
+	margin : auto;
+}
+.TexteServices
+{
+	font-family : PoliceWebAgency,ARIAL,Serif;
+	display : -webkit-box;
+	display : -ms-flexbox;
+	display : flex;
+	-webkit-box-orient : vertical;
+	-webkit-box-direction : normal;
+	    -ms-flex-direction : column;
+	        flex-direction : column;
+	-ms-flex-pack : distribute;
+	    justify-content : space-around;
+}
+.Services
+{
+	display : -webkit-box;
+	display : -ms-flexbox;
+	display : flex;
+}
+.CercleText
+{
+	margin-top : auto;
+	margin-bottom:auto;
+}
+.CercleBordure
+{
+	background-color : white;
+	position : relative;
+	border : solid 1px #c4c4c4;
+}
+.CercleBordure i
+{
+	color : #5CADD4;
+	position : absolute;
+}
+.DescriptionServices
+{
+	font-family : Roboto,Arial,serif;
+	display : -webkit-box;
+	display : -ms-flexbox;
+	display : flex;
+	-webkit-box-orient : vertical;
+	-webkit-box-direction : normal;
+	    -ms-flex-direction : column;
+	        flex-direction : column;
+	margin-left : 5%;
+}
+.DescriptionServices p
+{
+	color : #72767a;
+}
+/*Projet*/
+.NosProjets
+{
+	background-color : #80808029 ;
+}
+.ListTravail
+{
+	min-width : 350px;
+	max-width : 400px;
+	font-family : Roboto,Arial,serif;
+	font-size : 0.8em;
+	
+}
+.ListTravail li:hover
+{
+	position : relative;
+	background-color: #4EB1D5;
+	color: white;
+	border-bottom: solid #468CAD;
+}
+.ListTravail li:nth-child(1):hover
+{
+	border-radius : 5px 0px 0px 5px;
+}
+.ListTravail li:nth-child(4):hover
+{
+	border-radius : 0px 5px 5px 0px;
+}
+.ListTravail a
+{
+	font-weight : bold;
+	margin : auto;
+}
+.ListTravail ul
+{
+	font-family : PoliceWebAgency, Arial, serif;
+	display : -webkit-box;
+	display : -ms-flexbox;
+	display : flex;
+	border-radius : 5px;
+	background-color : #80808029;
+	list-style-type : none;
+	padding : 0;
+}
+.ListTravail ul li
+{
+	width : 25%;
+	height : 30px;
+	display : -webkit-box;
+	display : -ms-flexbox;
+	display : flex;
+	-webkit-box-pack : center;
+	    -ms-flex-pack : center;
+	        justify-content : center;
+	padding : 1%;
+}
+.ListTravailActif
+{
+	background-color: #5cadd3;
+	color: white;
+	border-top-left-radius: 5px;
+	border-bottom-left-radius: 5px;
+}
+.ListTravailInactif
+{
+	font-weight : bold;
+	color : #666;
+}
+.Triangle
+{
+	position: absolute;
+	bottom : -10px;
+	border-left: 10px solid transparent;
+	border-right: 10px solid transparent;
+	border-top: 10px solid #468CAD;
+}
+.PresentationProjet
+{
+	display : -webkit-box;
+	display : -ms-flexbox;
+	display : flex;
+	-ms-flex-wrap : wrap ;
+	    flex-wrap : wrap ;
+	-webkit-box-pack : center;
+	    -ms-flex-pack : center;
+	        justify-content : center;
+	padding-bottom : 15px;
+}
+figure
+{
+	position : relative;
+	-webkit-box-flex : 1;
+	margin : 1%;
+	width : 23%;
+}
+figure img
+{
+	width : 100%;
+}
+figcaption
+{
+	display : none;
+	position : absolute;
+	bottom : 4px;
+}
+.TexteFigcaption
+{
+	font-weight : bold;
+	margin-left : 5%;
+}
+.oeil
+{
+	position: absolute;
+	border: solid 2px white;
+	background-color: #4591b1;
+	color: white;
+	display : -webkit-box;
+	display : -ms-flexbox;
+	display : flex;
+}
+.oeil i
+{
+	color : white;
+	display : -webkit-box;
+	display : -ms-flexbox;
+	display : flex;
+	margin : auto;
+}
+/*Contact*/
+.Contact
+{
+	position : relative ;
+}
+iframe
+{
+	border : none;
+}
+.Adresse
+{
+	color : grey;
+	font-size : 0.9em;
+}
+.Formulaire
+{
+	font-family: Roboto,Arial,serif;
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-orient: vertical;
+	-webkit-box-direction: normal;
+	    -ms-flex-direction: column;
+	        flex-direction: column;
+	-ms-flex-pack: distribute;
+	    justify-content: space-around;
+	background-color: RGBa(255,255,255,0.6);
+}
+form
+{
+	display : -webkit-box;
+	display : -ms-flexbox;
+	display : flex;
+	-webkit-box-orient : vertical;
+	-webkit-box-direction : normal;
+	    -ms-flex-direction : column;
+	        flex-direction : column;
+}
+.Adresse p
+{
+	margin-top : 0;
+}
+input
+{
+	font-family : Roboto,Arial,serif;
+	font-weight : bold;
+}
+textarea
+{
+	font-family : Roboto,Arial,serif;
+	font-weight : bold;
+	font-size : 1em;
+}
+.ButtonForm
+{
+	width : 115px;
+	border-bottom : solid 3px #468CAD;
+		border-top : 0px;
+		border-right : 0px;
+		border-left : 0px;
+}
+/*Condition Min 1024*/
+@media all and (min-width : 1025px)
+{
+.Slider
+{
+	width :100% ;
+}
+.TextSlider
+{
+	top : 20%;
+	left : 15%;
+	width : 40%;
+}
+.titreslider
+{
+	font-size : 1.3em;
+}
+.SliderGauche
+{
+	top : 40%;
+	width : 50px;
+	height : 100px;
+	color : white;
+	border-radius : 0px 100px 100px 0px;
+}
+.SliderDroite
+{
+	top : 40%;
+	right : 0px;
+	width : 50px;
+	height : 100px;
+	
+	border-radius : 100px 0px 0px 100px;
+}
+.SliderGauche i
+{
+	font-size : 1.5em;
+	position : absolute;
+	top : 35%;
+	right : 25%;
+	color : white;
+}
+.SliderDroite i
+{
+	font-size : 1.5em;
+	color : white;
+	position : absolute;
+	top : 35%;
+	left : 25%;
+}
+/*Titre*/
+.CercleBlanc
+{
+	width : 25px;
+	height : 25px;
+	background-color : white;
+	position : relative;
+	top : -25px;
+	border-radius : 50px;
+}
+.cercle
+{
+	width : 15px;
+	height : 15px;
+	background-color : #5CADD4;
+	position : relative;
+	top : 20%;
+	left : 20%;
+	border-radius : 20px;
+}
+/*Service*/
+.TexteServices
+{
+	line-height : 30px;
+	width : 50%;
+}
+.CercleBordure
+{
+	width : 60px;
+	height : 60px;
+	border-radius : 100px;
+}
+.CercleBordure i
+{
+	font-size : 1.7em;
+	top : 25%;
+	left : 30%;
+}
+.CercleDescription
+{
+	width : 25px;
+	height : 25px;
+	background-color : white;
+	position : absolute;
+	top : 35%;
+	right : -15px;
+	border-radius : 20px;
+}
+.ListTravail
+{
+	width : 400px;
+}
+/*Projet*/
+.ListTravailActif
+{
+	position : relative;
+	border-bottom: 3px solid #468CAD;
+}
+figure:hover figcaption
+{
+	display : block;
+	position : absolute;
+	background-color : RGB(0,0,0,0.6);
+	width : 100%;
+	color : white;
+	font-family : Roboto,Arial,serif;
+}
+.oeil
+{
+	top: -25px;
+	left: 75%;
+	border-radius: 100px;
+	width: 50px;
+	height: 50px;
+}
+.oeil i
+{
+	font-size : 1.4em;
+	top : 25%;
+	left: 25%;
+}
+/*Contact */
+.Contact
+{
+	height : 900px;
+}
+.FondBleu
+{
+	width: 100%;
+	height : 100%;
+	background-color : RGB(78,177,213);
+	position : relative;
+}
+iframe
+{
+	width : 100%;
+	position : absolute ;
+	height : 100%;
+	opacity : 0.7;
+}
+.Formulaire
+{
+	position : absolute ;
+	width: 20%;
+	height: 60%;
+	margin: 80px 100px 80px;
+	top : 5%;
+	right : 5%;
+}
+form
+{
+	margin : 0px 30px 15px;
+	height : 100%;
+}
+input
+{
+	color : #b4b4b4;
+	border-radius : 5px;
+	margin-bottom : 15px;
+	font-size : 1em;
+	padding : 3%;
+	border : 1px solid #c8c8c8;
+}
+textarea
+{
+	color : #b4b4b4;
+	border-radius : 5px;
+	margin-bottom : 15px;
+	height : inherit;
+	padding : 3%;
+	border : 1px solid #c8c8c8;
+}
+}
+/*Condition Max 1024*/
+@media all and (max-width : 1024px)
+{
+header
+{
+	width : 100%;
+	display : -webkit-box;
+	display : -ms-flexbox;
+	display : flex;
+	-ms-flex-pack : distribute;
+	    justify-content : space-around;
+	-ms-flex-wrap : wrap;
+	    flex-wrap : wrap;
+}
+.entetewidth
+{
+	width : 100%;
+	display : -webkit-box;
+	display : -ms-flexbox;
+	display : flex;
+	-webkit-box-pack : justify;
+	    -ms-flex-pack : justify;
+	        justify-content : space-between;
+}
+.logo
+{
+	margin-top : auto;
+	margin-bottom : auto;
+}
+nav 
+{
+	width : 35%;
+}
+nav ul
+{
+	margin : auto;
+	padding : 0;
+	display : -webkit-box;
+	display : -ms-flexbox;
+	display : flex;
+	height : 100%;
+}
+nav li:nth-child(1)
+{
+	border-top :solid 2px #01a9db;
+}
+nav li
+{
+	font-family : PoliceWebAgency, Arial, serif;
+	color : grey;
+	display : -webkit-box;
+	display : -ms-flexbox;
+	display : flex;
+	width : 25%;
+}
+nav li:hover
+{
+	border-top : solid 2px #01a9db;
+	color : black;
+}
+.Element
+{
+	text-decoration : none;
+	margin :auto;
+	color : grey;
+}
+.Slider
+{
+	width :100% ;
+}
+.TextSlider
+{
+	position : absolute ;
+	top : 15%;
+	left : 18%;
+	width : 40%;
+	display : -webkit-box;
+	display : -ms-flexbox;
+	display : flex;
+	-webkit-box-orient : vertical;
+	-webkit-box-direction : normal;
+	    -ms-flex-direction : column ;
+	        flex-direction : column ;
+
+}
+.titreslider
+{
+	font-weight : bold ;
+	font-size : 0.7em;
+}
+.ButtonSlider
+{
+	font-family : PoliceWebAgency, Arial , serif;
+	font-size : 15px;
+	font-weight : bold;
+	border-radius : 5px;
+	width : 100px;
+	height : 50px;
+	background-color : #5cadd3;
+	color : white ;
+	border-bottom : solid 3px #468cad;
+		border-top : 0px;
+		border-right : 0px;
+		border-left : 0px;
+}
+.SliderGauche
+{
+	display : none;
+	visibility : hidden;
+	
+	/*position : absolute;
+	top : 40%;
+	width : 50px;
+	height : 100px;
+	color : white;
+	background-color : RGBa(0,0,0,0.5);
+	border-radius : 0px 100px 100px 0px;*/
+}
+.SliderDroite
+{
+	display : none;
+	visibility : hidden;
+	/*position : absolute;
+	top : 40%;
+	right : 0px;
+	width : 50px;
+	height : 100px;
+	background-color : RGBa(0,0,0,0.5);
+	border-radius : 100px 0px 0px 100px;*/
+}
+.SliderGauche i
+{
+	font-size : 1.2em;
+	position : absolute;
+	top : 40px;
+	right : 25%;
+	color : white;
+}
+.SliderDroite i
+{
+	font-size : 1.2em;
+	color : white;
+	position : absolute;
+	top : 40px;
+	left : 25%;
+}
+.BarreSlider
+{
+	display : none;
+	visibility : hidden;
+}
+/*Titre*/
+.Titre
+{
+	font-family : PoliceWebAgency,arial,serif;
+	display : -webkit-box;
+	display : -ms-flexbox;
+	display : flex;
+	-webkit-box-orient : vertical;
+	-webkit-box-direction : normal;
+	    -ms-flex-direction : column;
+	        flex-direction : column;
+	-webkit-box-align : center;
+	    -ms-flex-align : center;
+	        align-items : center;
+	font-size : 1.5em;
+}
+hr
+{
+	width : 10%;
+	color : #EBEBEB;
+}
+.CercleBlanc
+{
+	width : 30px;
+	height : 30px;
+	background-color : white;
+	position : relative;
+	top : -27px;
+	border-radius : 50px;
+}
+.cercle
+{
+	width : 15px;
+	height : 15px;
+	background-color : #5CADD4;
+	position : relative;
+	top : 25%;
+	left : 25%;
+	border-radius : 20px;
+}
+.Titre p
+{
+	font-family : PoliceWebAgency, Arial,serif;
+	color : #555;
+}
+/*Service*/
+.NosServices
+{
+	
+}
+.DetailServices
+{
+	display : -webkit-box;
+	display : -ms-flexbox;
+	display : flex;
+	-webkit-box-pack : center;
+	    -ms-flex-pack : center;
+	        justify-content : center;
+	margin : auto;
+}
+.Ordinateur
+{
+	width : 40%;
+	margin : auto;
+	margin-right : 0;
+	margin-left : auto;
+}
+.Services img
+{
+	float :left;
+	margin-right : 15px;
+}
+.Services
+{
+	display : -webkit-box;
+	display : -ms-flexbox;
+	display : flex;
+}
+.TexteServices
+{
+	font-family : PoliceWebAgency,ARIAL,Serif;
+	display : -webkit-box;
+	display : -ms-flexbox;
+	display : flex;
+	-webkit-box-orient : vertical;
+	-webkit-box-direction : normal;
+	    -ms-flex-direction : column;
+	        flex-direction : column;
+	-ms-flex-pack : distribute;
+	    justify-content : space-around;
+	line-height : 30px;
+	margin-right : auto;
+}
+.CercleText
+{
+	margin-top : auto;
+	margin-bottom:auto;
+}
+.CercleBordure
+{
+	width : 60px;
+	height : 60px;
+	border-radius : 80px;
+	background-color : white;
+	position : relative;
+	border : solid 1px grey;
+}
+.CercleBordure i
+{
+	color : #5CADD4;
+	font-size : 1.5em;
+	position : absolute;
+	top : 30%;
+	left : 30%;
+}
+.DescriptionServices
+{
+	display : -webkit-box;
+	display : -ms-flexbox;
+	display : flex;
+	-webkit-box-orient : vertical;
+	-webkit-box-direction : normal;
+	    -ms-flex-direction : column;
+	        flex-direction : column;
+	margin-left : 50px;
+	font-size : 1.3em;
+}
+.CercleDescription
+{
+	width : 35px;
+	height : 35px;
+	background-color : white;
+	position : absolute;
+	top : 25%;
+	right : -20px;
+	border-radius : 20px;
+}
+.DetailServices
+{
+	-webkit-box-orient : vertical;
+	-webkit-box-direction : normal;
+	    -ms-flex-direction : column;
+	        flex-direction : column;
+}
+.Ordinateur
+{
+	margin : auto;
+}
+.TexteServices p
+{
+	color : #555;
+}
+/*Projet*/
+.NosProjets
+{
+	background-color : #80808029 ;
+}
+.ListTravail
+{
+	width : 30%;
+}
+.ListTravail ul
+{
+	font-family : PoliceWebAgency, Arial, serif;
+	display : -webkit-box;
+	display : -ms-flexbox;
+	display : flex;
+	border-radius : 5px;
+	background-color : #80808029;
+	list-style-type : none;
+	padding : 0;
+	font-size : 0.7em;
+	height : -webkit-max-content;
+	height : -moz-max-content;
+	height : max-content
+}
+.ListTravail li
+{
+	display : -webkit-box;
+	display : -ms-flexbox;
+	display : flex;
+	-webkit-box-pack : center;
+	    -ms-flex-pack : center;
+	        justify-content : center;
+	padding : 10px;
+}
+.ListTravailInactif
+{
+	font-weight : bold;
+	color : #666;
+}
+.ListTravailActif
+{
+	position : relative;
+	background-color: #64A6FB;
+	color: white;
+	border-top-left-radius: 5px;
+	border-bottom-left-radius: 5px;
+	border-bottom: solid #468CAD;
+}
+.ListTravail li:hover
+{
+	position : relative;
+	background-color: #64A6FB;
+	color: white;
+	border-bottom: solid #468CAD;
+}
+.ListTravail li:nth-child(1):hover
+{
+	border-radius : 5px 0px 0px 5px;
+}
+.ListTravail li:nth-child(4):hover
+{
+	border-radius : 0px 5px 5px 0px;
+}
+.ListTravail a
+{
+	font-weight : bold;
+	margin : auto;
+}
+.PresentationProjet
+{
+	display : -webkit-box;
+	display : -ms-flexbox;
+	display : flex;
+	-ms-flex-wrap : wrap ;
+	    flex-wrap : wrap ;
+	-webkit-box-pack : center;
+	    -ms-flex-pack : center;
+	        justify-content : center;
+	padding-bottom : 15px;
+}
+figure
+{
+	-webkit-box-flex : 1;
+	    -ms-flex : 1 1 48%;
+	        flex : 1 1 48%;
+	position : relative;
+	margin : 1%;
+}
+figure img
+{
+	width : 100%;
+}
+figcaption
+{
+	display : block;
+	position : absolute;
+	background-color : RGBa(0,0,0,0.6);
+	color : white;
+	font-family : Roboto,Arial,serif;
+	bottom : 0;
+	width : 100%;
+	height : 30%;
+	bottom : 4px;
+}
+.TexteFigcaption
+{
+	margin-left : 25px;
+}
+.oeil
+{
+	display : flex;
+	position: absolute;
+	top: -30%;
+	left: 80%;
+	border-radius: 50px;
+	border: solid 2px #fff6fe;
+	background-color: #468CAD;
+	width: 50px;
+	height: 50px;
+	color: white;
+	font-size : 1.4em;
+}
+.oeil i
+{
+	color : white;
+	font-size : 0.8em;
+	margin : auto;
+}
+/*Contact */
+.Contact
+{
+	position : relative ;
+}
+.FondBleu
+{
+	width:100%;
+	height : 700px;
+	background-color : RGB(78,177,213);
+	position : relative;
+}
+iframe
+{
+	width : 100%;
+	position : absolute ;
+	height : 100%;
+	opacity : 0.7;
+}
+.Formulaire
+{
+	font-family: PoliceWebAgency,Arial,serif;
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-orient: vertical;
+	-webkit-box-direction: normal;
+	    -ms-flex-direction: column;
+	        flex-direction: column;
+	width: 35%;
+	height: 70%;
+	margin: 80px 100px 80px;
+	-ms-flex-pack: distribute;
+	    justify-content: space-around;
+	background-color: RGBa(255,255,255,0.6);
+	position : absolute ;
+	top : 5%;
+	right : 5%;
+}
+form
+{
+	display : -webkit-box;
+	display : -ms-flexbox;
+	display : flex;
+	-webkit-box-orient : vertical;
+	-webkit-box-direction : normal;
+	    -ms-flex-direction : column;
+	        flex-direction : column;
+	margin : 0px 30px 15px;
+	height : 100%;
+}
+.Adresse
+{
+	color : #666;
+}
+h4
+{
+	margin-bottom:0;
+}
+.Adresse p
+{
+	margin-top : 0;
+}
+input
+{
+	color : grey;
+	border-radius : 5px;
+	margin-bottom : 15px;
+	font-size : 1.0em;
+	padding : 8px 0px 8px 3%;
+	border : 1px solid grey;
+}
+textarea
+{
+	color : grey;
+	border-radius : 5px;
+	margin-bottom : 15px;
+	height : inherit;
+	padding : 8px 0px 8px 3%;
+	border : 1px solid grey;
+	font-size : 1.0em;
+}
+}
+/*Condition Max 568px*/
+@media all and (max-width : 568px)
+{
+.entetewidth
+{
+	display : -webkit-box;
+	display : -ms-flexbox;
+	display : flex;
+	-webkit-box-orient :vertical;
+	-webkit-box-direction :normal;
+	    -ms-flex-direction :column;
+	        flex-direction :column;
+}
+.logo
+{
+	margin :auto;
+}
+.TextSlider
+{
+	position : relative;
+	width : 80%;
+	text-align : center;
+	margin : auto;
+	top : 0;
+	left : 0;
+}
+.titreslider
+{
+	color : #666;
+}
+.TextSlider p
+{
+	color : #666;
+}
+.ButtonSlider
+{
+	margin :auto;
+}
+.BarreSlider
+{
+	display : none;
+	visibility : hidden;
+}
+.Ordinateur
+{
+	display : none;
+	visibility :hidden;
+}
+.Services
+{
+	flex-direction : column;
+}
+.CercleBordure
+{
+	margin : auto;
+}
+.DescriptionServices
+{
+	text-align : center;
+	margin-left : 0;
+}
+nav
+{
+	width : 100%;
+}
+.ListTravail
+{
+	width : 80%;
+}
+figure
+{
+	-webkit-box-flex : 1;
+	    -ms-flex : 1 1 95%;
+	        flex : 1 1 95%;
+	margin : 5%;
+}
+.FondBleu
+{
+	display : none;
+	visibility : hidden;
+}
+.Formulaire
+{
+	position : relative;
+	width : 100%;
+	margin : 0;
+	top : 0;
+	right : 0;
+}
+form
+{
+	margin : 0;
+}
+.EnteteForm
+{
+	text-align : center;
+}
+.ButtonForm
+{
+	width : 25%;
+	margin : auto;
+}
+}
